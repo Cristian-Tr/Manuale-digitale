@@ -1,9 +1,8 @@
 📚 SCHOOL LIBRARY - BIBLIOTECA ELEVILOR
 
-🔗 Link: http://127.0.0.1:5500/index.html
+🔗 Link: at https://cristian-tr.github.io/Manuale-digitale/
 
 📖 Proiect dezvoltat pentru explorarea conceptului de manuale digitale care pot determina elevii să se implice proactiv în activitățile educaționale.
-
 
 📈 Rezultate Audit Lighthouse
 
