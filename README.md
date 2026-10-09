@@ -6,9 +6,9 @@
 
 📈 Rezultate Audit Lighthouse
 
-🖥️ DESKTOP: Performance: 98 | Accesibility: 100 | Best practices: 100 | SEO: 100
+🖥️ DESKTOP: Performance: 99 | Accesibility: 100 | Best practices: 100 | SEO: 100
 
-📱 MOBILE:  Performance: 98 | Accesibility: 100 | Best practices: 100 | SEO: 100
+📱 MOBILE:  Performance: 95 | Accesibility: 100 | Best practices: 100 | SEO: 100
 
 🛠️ Tehnologii Utilizate
 🎨 HTML5 & CSS3 (Custom styling) 
