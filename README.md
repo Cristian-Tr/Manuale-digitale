@@ -1,6 +1,6 @@
 📚 SCHOOL LIBRARY - BIBLIOTECA ELEVILOR
 
-🔗 Link: at https://cristian-tr.github.io/Manuale-digitale/
+🔗 Link: https://cristian-tr.github.io/Manuale-digitale/
 
 📖 Proiect dezvoltat pentru explorarea conceptului de manuale digitale care pot determina elevii să se implice proactiv în activitățile educaționale.
 
