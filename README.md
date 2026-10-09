@@ -1,2 +1,30 @@
-# Manuale-digitale
-Landing page educațional.
+📚 SCHOOL LIBRARY - BIBLIOTECA ELEVILOR
+
+🔗 Link: http://127.0.0.1:5500/index.html
+
+📖 Proiect dezvoltat pentru explorarea conceptului de manuale digitale care pot determina elevii să se implice proactiv în activitățile educaționale.
+
+
+📈 Rezultate Audit Lighthouse
+
+🖥️ DESKTOP: Performance: 98 | Accesibility: 100 | Best practices: 100 | SEO: 100
+
+📱 MOBILE:  Performance: 98 | Accesibility: 100 | Best practices: 100 | SEO: 100
+
+🛠️ Tehnologii Utilizate
+HTML5 & CSS3 (Custom styling) 🎨
+JavaScript (Interacțiuni și funcționalități UI) ⚡
+GIMP (Prelucrare imagini in format .webp) 🖌️
+Dev Tools (Audit și optimizare) 📊
+
+🖥️>💻>📱 Responsive web design (RWD): Am proiectat un design adaptabil pe orice dispozitiv.
+
+Testat pe modurile white/dark pe mai multe browser-e bazate pe Chromium engine.
+
+🖼️ Imagini de Nouă Generație: Toate resursele grafice au fost convertite în format WebP pentru o încărcare instantanee, reducând dimensiunea fișierelor cu peste 80%.
+
+⚡ LCP & FCP Optimization: Am implementat fetchpriority="high" și preload pentru elementele critice (LCP), asigurând o experiență de utilizare fluidă.
+
+📏 Stabilitate Vizuală (CLS 0): Am eliminat orice salt vizual al elementelor prin definirea strictă a dimensiunilor imaginilor și optimizarea layout-ului.
+
+

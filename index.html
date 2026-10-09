@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="ro">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow">
+    <title>School Library</title>
+    <meta name="description" content="Manuale digitale, Landing page, Digital textbooks, Personal portfolio">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="icon" href="./book-pictogram.webp" type="image/webp">
+    <link rel="canonical" href="https://cristian-tr.github.io/Manuale-digitale/">
+    <meta property="og:title" content="Manuale digitale">
+    <meta property="og:description" content="Manuale digitale">
+    <meta property="og:type" content="profile">
+    <meta property="og:url" content="https://cristian-tr.github.io/Manuale-digitale/" />
+    <meta property="og:site_name" content="Manuale digitale" />
+    <link rel="preload" as="image" href="./my-photo.jpg" fetchpriority="high">
+    <link rel="stylesheet" href="style.css">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Cristian Tr",
+      "jobTitle": "Digital Analist", 
+      "url": "https://cristian-tr.github.io/School-Library/",
+      "sameAs": ["https://github.com/Cristian-Tr/"]
+    }
+    </script>
+</head>
+
+
+<body>
+
+    <header>
+        <h1>MANUALE DIGITALE</h1>
+
+        <section class="container-fluid text-center text-white"
+            style="background-color: transparent !important; margin-top: 17px; margin-bottom: 35px;">
+
+            <img src="pupils.webp" alt="pupils"
+                style="width: 305px; height: auto; margin: 1px auto; object-fit: cover;">
+
+        </section>
+
+        <h2>BIBLIOTECA ELEVILOR</h2>
+
+    </header>
+
+    <main>
+        <!-- BOOKS SHELFS - START -->
+        <div class="library-container">
+            <!-- RAFTUL 1 (8 CĂRȚI) -->
+            <div class="shelf">
+                <div class="books-grid">
+                    <div class="book romana" data-title="Limba Română"><span class="book-title">Română</span><span
+                            class="book-emoji">🔤</span><span class="book-badge">I</span></div>
+                    <div class="book mate" data-title="Matematică"><span class="book-title">Matematică</span><span
+                            class="book-emoji">📐</span><span class="book-badge">II</span></div>
+                    <div class="book religie" data-title="Religie"><span class="book-title">Religie</span><span
+                            class="book-emoji">🙏</span><span class="book-badge">III</span></div>
+                    <div class="book istorie" data-title="Istorie"><span class="book-title">Istorie</span><span
+                            class="book-emoji">📜</span><span class="book-badge">IV</span></div>
+                    <div class="book biologie" data-title="Biologie"><span class="book-title">Biologie</span><span
+                            class="book-emoji">🔬</span><span class="book-badge">V</span></div>
+                    <div class="book geografie" data-title="Geografie"><span class="book-title">Geografie</span><span
+                            class="book-emoji">⛰️</span><span class="book-badge">VI</span></div>
+                    <div class="book chimie" data-title="Chimie"><span class="book-title">Chimie</span><span
+                            class="book-emoji">⚗️</span><span class="book-badge">VII</span></div>
+                    <div class="book tehnologie" data-title="Tehnnologie"><span
+                            class="book-title">Tehnologie</span><span class="book-emoji">🛠️</span><span
+                            class="book-badge">VIII</span></div>
+                </div>
+            </div>
+
+            <!-- RAFTUL 2 (8 CĂRȚI) -->
+            <div class="shelf">
+                <div class="books-grid">
+                    <div class="book informatica" data-title="Informatică"><span
+                            class="book-title">Informatică</span><span class="book-emoji">💻</span><span
+                            class="book-badge">IX</span></div>
+                    <div class="book logică" data-title="Logică"><span class="book-title">Logică</span><span
+                            class="book-emoji">🧩</span><span class="book-badge">IX</span></div>
+                    <div class="book psihologie" data-title="psihologie"><span class="book-title">Psihologie</span><span
+                            class="book-emoji">🗣️</span><span class="book-badge">X</span></div>
+                    <div class="book economie" data-title="Economie"><span class="book-title">Economie</span><span
+                            class="book-emoji">📈</span><span class="book-badge">X</span></div>
+                    <div class="book filozofie" data-title="Filozofie"><span class="book-title">Filozofie</span><span
+                            class="book-emoji">🏛️</span><span class="book-badge">XI</span></div>
+                    <div class="book fizica" data-title="Fizică"><span class="book-title">Fizică</span><span
+                            class="book-emoji">🧲</span><span class="book-badge">XI</span>
+                    </div>
+                    <div class="book desen" data-title="Educație Plastică"><span class="book-title">Desen</span><span
+                            class="book-emoji">🎨</span><span class="book-badge">XII</span></div>
+                    <div class="book muzica" data-title="Educație Muzicală"><span class="book-title">Muzică</span><span
+                            class="book-emoji">🎵</span><span class="book-badge">XII</span></div>
+                </div>
+            </div>
+        </div>
+        <!-- BOOKS SHELFS - STOP -->
+    </main>
+
+    <!-- MODAL POPUP (MANUALUL INTERACTIV) - START-->
+    <aside class="modal-overlay" id="bookModal">
+        <div class="enhanced-pdf-container">
+            <div class="pdf-header">
+                <h2 id="modalBookTitle">Manual Interactiv</h2>
+                <button class="close-btn" id="closeBtn">&times;</button>
+            </div>
+            <div class="pdf-body">
+                <!-- PAGINA STÂNGA -->
+                <div class="pdf-page">
+                    <h3>Capitolul 1:<br>Concepte Fundamentale</h3>
+                    <p>Conceptul de Enhanced HTML utilizează tehnologii web (HTML5, CSS3, JS) pentru a
+                        transforma o prezentare clasică cu text și imagini într-o experiență captivantă datorită
+                        resurselor multimedia (fișiere audio-video, chestionare interactive, jocuri educaționale,
+                        diagrame dinamice), designului adaptabil pe orice tip de dispozitiv,
+                        și adaptării conținutului la nevoile elevilor cu deficiențe de vedere!.<br>
+                        Spre deosebire de un fișier PDF, formatul Enhanced HTML
+                        <span class="highlight-term"> poate crește implicarea elevilor prin fișiere multimedia!
+                            <span class="tooltip-box">💡 Acesta este un Pop-up Pedagogic! Oferă elevului definiția
+                                instant, fără a-l
+                                face să caute la sfârșitul manualului.</span>
+                        </span>
+                    </p>
+                    <div style="position: relative; cursor: pointer;">
+                        <!-- Copertă generată automat de YouTube pentru clipul tău -->
+                        <img src="manuale.webp" alt="Copertă Video" style="width:100%; height:100%; object-fit:cover;">
+
+                    </div>
+                </div>
+
+                <!-- PAGINA DREAPTA -->
+                <div class="pdf-page">
+                    <h3>Aplicații Practice <br> Quiz Evaluare</h3>
+                    <p>După analiza informațiilor din pagina anterioară, completați studiul de caz.</p>
+                    <div class="quiz-container">
+                        <h4>📝 Verifică-ți cunoștințele:</h4>
+                        <p style="font-size: 0.9rem; margin-top: 5px;">Care este cea mai importantă caracteristică
+                            a unui manual digital?</p>
+                        <div class="quiz-options">
+                            <button class="quiz-btn" data-correct="false">A) Se poate tipări la imprimantă</button>
+                            <button class="quiz-btn" data-correct="true">B) Multimedia crește implicarea
+                                elevilor</button>
+                            <button class="quiz-btn" data-correct="false">C) Poate conține mai multe informații</button>
+                            <button class="quiz-btn" data-correct="false">D) Este mai ușor de transportat</button>
+                            <button class="quiz-btn" data-correct="false">E) Este util elevilor cu deficiențe</button>
+                        </div>
+                        <div class="quiz-feedback" id="quizFeedback"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </aside>
+    <!-- MODAL POPUP (MANUALUL INTERACTIV) - STOP-->
+
+    <!-- ABOUT PROJECT & LINKEDIN BUTTON - START-->
+    <footer class="library-footer row text-center">
+        <img src="students.webp" alt="students" style="width: 305px; height: auto; margin: auto; object-fit: cover;">
+        </section>
+        <!-- LINK JOCURI EDUCATIONALE - WALLY & LUNA APP - START -->
+        <div class="educational-games">
+            <a href="https://cristian-tr.github.io/Wally-Luna/" target="_blank" rel="noopener noreferrer"
+                class="educational-games-btn" aria-label="Vizitează profilul meu LinkedIn">
+                <div class="btn-content">
+                    <small>JOCURI EDUCAȚIONALE</small>
+                </div>
+            </a>
+        </div><br>
+        <!-- LINK JOCURI EDUCATIONALE - WALLY & LUNA APP - STOP -->
+
+
+        <div class="footer-content">
+            <section>
+                <!-- INFO SCHOOL LIBRARY - START -->
+                <div class="col-12 text-center">
+                    <!-- MY GITHUB PORTFOLIO LINK - START -->
+                    <a href="https://cristian-tr.github.io/Cristian-T-Portfolio/" class="my-link"
+                        aria-label="Vizitează portofoliul meu GitHub">
+                        CRISTIAN T <img src="my-photo.jpg" alt="My picture"
+                            style="width: clamp(35px, 8vw, 53px); height: clamp(35px, 8vw, 53px); 
+                                                               border-radius: 50%; margin-bottom: 6px; object-fit: cover; border: 1px solid cyan;">
+                        PORTFOLIO</a>
+                    <!-- CALL TO ACTION SVG TEXT - START-->
+                    <div style="width: 287px; margin: auto; margin-top: -5px;">
+                        <svg viewBox="0 0 450 60"
+                            style="width: 100%; overflow: visible; font-weight: 700; font-size: 1.9rem;">
+                            <symbol id="portfolio-text">
+                                <text text-anchor="middle" x="50%" y="50%" dy=".1em">
+                                    DISCOVER MY PROJECTS
+                                </text>
+                            </symbol>
+                            <!-- CULOARE FUNDAL TEXT -->
+                            <use xlink:href="#portfolio-text" fill="cyan"></use>
+                            <!-- CULOARE CONTUR TEXT ANIMAT -->
+                            <use xlink:href="#portfolio-text" class="text-animation"></use>
+                        </svg>
+                    </div>
+                    <!-- MY GITHUB ACCOUNT LINK & CTA TEXT - STOP -->
+
+                    <strong>&copy; Manuale digitale - oct. 2026</strong><br>
+                    <strong>Proiect dezvoltat pentru explorarea conceptului de manuale digitale
+                        care pot motiva elevii să se implice proactiv în activitățile educaționale.<br>
+                        ✓ Audit Lighthouse:<br>
+                        Performance: 98 | Accesibility: 100 | Best practices: 100 | SEO: 100</strong><br>
+                    <strong>Built with HTML, CSS & JavaScript technologies</strong><br>
+                </div>
+            </section>
+            <!-- INFO SCHOOOL LIBRARY - STOP -->
+        </div>
+
+    </footer>
+    <!-- ABOUT PROJECT & LINKEDIN BUTTON - STOP-->
+
+    <script src="app.js" defer></script>
+
+</body>
+
+</html>
