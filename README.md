@@ -11,10 +11,13 @@
 📱 MOBILE:  Performance: 98 | Accesibility: 100 | Best practices: 100 | SEO: 100
 
 🛠️ Tehnologii Utilizate
-HTML5 & CSS3 (Custom styling) 🎨
-JavaScript (Interacțiuni și funcționalități UI) ⚡
-GIMP (Prelucrare imagini in format .webp) 🖌️
-Dev Tools (Audit și optimizare) 📊
+🎨 HTML5 & CSS3 (Custom styling) 
+
+⚡ JavaScript (Interacțiuni și funcționalități UI) 
+
+🖌️ GIMP (Prelucrare imagini in format .webp) 
+
+📊 Dev Tools (Audit și optimizare) 
 
 🖥️>💻>📱 Responsive web design (RWD): Am proiectat un design adaptabil pe orice dispozitiv.
 
