@@ -1,4 +1,4 @@
-📚 SCHOOL LIBRARY - BIBLIOTECA ELEVILOR
+📚 MANUALE DIGITALE - BIBLIOTECA ELEVILOR
 
 🔗 Link: https://cristian-tr.github.io/Manuale-digitale/
 
