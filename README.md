@@ -8,7 +8,7 @@
 
 🖥️ DESKTOP: Performance: 99 | Accesibility: 100 | Best practices: 100 | SEO: 100
 
-📱 MOBILE:  Performance: 95 | Accesibility: 100 | Best practices: 100 | SEO: 100
+📱 MOBILE:  Performance: 91 | Accesibility: 100 | Best practices: 100 | SEO: 100
 
 🛠️ Tehnologii Utilizate
 🎨 HTML5 & CSS3 (Custom styling) 
